@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.menu__container{
+    display: flex;
+    list-style: none;
+    gap:20px;
+}
+
+.submenu__container{
+    list-style: none;
+    display:none;
+    position: absolute;
+
+}
+
+li:hover .submenu__container{
+
+    display:block;
+    background-color: blue;
+}
+
+ .menu__container li:hover{
+    background-color: red;
+}
+
+
+nav{
+    background-color: blue;
+    color:white;
+}
